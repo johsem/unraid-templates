@@ -11,8 +11,8 @@
   <Overview>SuiteCRM is a free open-source Customer Relationship Management application for servers that is written in PHP.</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <TemplateURL>https://gitea.fuckedup.fr/Kryckely-Home-Unraid-Server/SuiteCRM/raw/branch/master/suitecrm.xml</TemplateURL>
-  <Icon>https://gitea.fuckedup.fr/Kryckely-Home-Unraid-Server/SuiteCRM/raw/branch/master/suitecrm.png</Icon>
+  <TemplateURL>https://github.com/johsem/unraid-templates/blob/main/SuiteCRM/suitecrm.xml</TemplateURL>
+  <Icon>https://github.com/johsem/unraid-templates/blob/main/SuiteCRM/suitecrm.png</Icon>
   <Description>SuiteCRM is a free open-source Customer Relationship Management application for servers that is written in PHP.</Description>
   <Config Name="Port" Target="8080" Default="8000" Mode="tcp" Description="Port" Type="Port" Display="always" Required="true" Mask="false">8000</Config>
   <Config Name="SUITECRM_USERNAME" Target="SUITECRM_USERNAME" Default="user" Mode="" Description="SuiteCRM application username" Type="Variable" Display="always" Required="true" Mask="false">user</Config>
